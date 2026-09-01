@@ -377,8 +377,7 @@ For research collaboration, fellowship assessment, technical evaluation, or requ
 **Muhammad Haseeb Khan**
 
 - GitHub: [github.com/haseebkn](https://github.com/haseebkn)
-- LinkedIn: *Add LinkedIn URL*
-- Email: *Add preferred professional email*
+- LinkedIn: [linkedin.com/in/haseebkn](https://www.linkedin.com/in/haseebkn/)
 
 ---
 
