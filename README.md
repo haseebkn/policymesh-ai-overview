@@ -1,384 +1,224 @@
 # PolicyMesh AI
 
-### Agentic Policy Simulation & Assurance Platform
+### Evidence-Governed Policy Analysis and Scenario Support for Newfoundland and Labrador
 
-**PolicyMesh AI** is an independent AI and public-policy research project exploring how agentic AI systems can support complex public-sector analysis while preserving **evidence provenance, transparency, reliability, explicit assumptions, and human oversight**.
+**PolicyMesh AI** is an independent research and development project building a province-wide platform to help analysts explore policy questions, compare alternatives and produce transparent, evidence-backed analysis.
 
-Newfoundland & Labrador serves as the project's initial policy environment and case study.
+The intended outcome is practical: help public-sector teams work more efficiently, understand potential consequences and identify important uncertainties before decisions are made.
 
-> **Project status:** Active development  
-> **Full implementation:** Private repository  
-> **Purpose of this repository:** Public technical and research overview
+**Current stage:** Working prototype with selected demonstrated workflows; broader analytical capabilities remain under development and validation.
 
----
+**Implementation:** Privately maintained.
 
-## Overview
+**Government affiliation:** None. The project is not government-approved or independently accepted for operational government use.
 
-Public-policy decisions often require evidence from multiple domains at the same time.
+## Why this project exists
 
-A single policy question may involve economic conditions, infrastructure capacity, demographics, regulatory constraints, environmental considerations, fiscal impacts, or other interconnected factors.
+A policy question rarely belongs to only one domain.
 
-PolicyMesh AI investigates whether an agentic AI system can assist with this kind of multi-domain analysis while maintaining a critical requirement:
+A proposed development might affect electricity demand, housing, labour, public finances, transportation, environmental constraints and community services simultaneously. Relevant information can be spread across statistical publications, legislation, financial statements and operational records.
 
-> **Quantitative claims should be traceable to verifiable evidence or clearly identified as assumptions.**
+PolicyMesh AI is being developed to help bring these considerations together while making a crucial distinction:
 
-The project combines AI-assisted reasoning, quantitative policy analysis, and authoritative public information within an assurance-oriented decision-support framework.
+**A plausible answer is not necessarily a supported answer.**
 
-The objective is not to automate policymaking.
+The platform’s purpose is to help analysts understand what the available evidence supports, which assumptions influence a result and what remains unknown.
 
-Instead, PolicyMesh AI is being developed as a research platform for examining how increasingly capable AI systems might assist analysts and decision-makers **without obscuring where information came from, overstating the reliability of underlying evidence, or removing meaningful human judgment from consequential decisions.**
+## What has been achieved
 
----
+Development has progressed beyond a conceptual proposal. A working local prototype supports selected evidence-review and bounded scenario workflows.
 
-## Why PolicyMesh AI?
+### Selected working workflows
 
-Large language models can produce convincing analytical narratives even when the underlying evidence is incomplete, inconsistent, outdated, or unavailable.
+Developer demonstrations have exercised:
 
-That creates a particularly important challenge in public-sector applications.
+- Geographical evidence exploration.
+- Wind-resource and transmission-reference screening.
+- Community and project-demand calculations under explicitly stated assumptions.
 
-A plausible policy recommendation is not necessarily an evidence-supported recommendation.
+These are limited analytical demonstrations—not proof of site suitability, available infrastructure capacity or government acceptance.
 
-PolicyMesh AI is therefore designed around the principle that an AI-assisted policy system should make it possible to distinguish between:
+### Source-backed observations and calculations
 
-- evidence supported by authoritative data,
-- model-derived analytical results,
-- assumptions introduced for scenario analysis,
-- information whose reliability is uncertain, and
-- conclusions that should not be produced because supporting evidence is insufficient.
+Selected components can read official public evidence and produce traceable observations or conditional calculations.
 
-This makes **data provenance and evidence integrity part of the analytical process itself**, rather than something added after an answer has already been generated.
+Development checks have included comparisons with published statistical values, economic multipliers and audited financial-accounting relationships.
 
----
+These checks establish specific results within their tested scope. They do not establish that every domain model is complete or suitable for consequential decisions.
 
-## Research Objectives
+### Clearer reporting and reproducibility
 
-PolicyMesh AI is being developed to explore questions such as:
+Supported workflows distinguish between:
 
-- How should agentic AI systems represent the provenance of evidence used in policy analysis?
-- When should an AI-assisted system refuse to provide a quantitative conclusion?
-- How can assumptions be distinguished from observed evidence?
-- How should uncertainty and model limitations propagate into an AI-generated policy brief?
-- What forms of human oversight are appropriate for consequential AI-assisted analysis?
-- How can multiple analytical tools and evidence sources be combined without creating a false impression of certainty?
-- What assurance requirements should governments consider when evaluating agentic AI decision-support systems?
+- Published observations.
+- Calculated scenario results.
+- User-specified assumptions.
+- Missing or conflicting evidence.
+- Conclusions that cannot currently be supported.
 
-These questions connect the technical development of PolicyMesh AI with broader research interests in **AI governance, assurance, transparency, accountability, and public-sector AI**.
+Selected assessments have also been reproduced using their saved inputs.
 
----
+### Evidence and analytical safeguards
 
-## High-Level System Concept
+The prototype includes controls intended to prevent unsupported values from being presented as established findings.
 
-PolicyMesh AI follows a multi-stage decision-support workflow:
+Where a method or its evidence is insufficient, affected conclusions are qualified or withheld. Known limitations and failed validation results are retained rather than treated as successful completion.
 
-```text
-                  Policy Question
-                        │
-                        ▼
-              Evidence & Data Context
-                        │
-                        ▼
-               Agentic Analysis Layer
-                        │
-              ┌─────────┴─────────┐
-              ▼                   ▼
-      Quantitative Analysis   Policy Evidence
-              │                   │
-              └─────────┬─────────┘
-                        ▼
-              Assurance & Validation
-                        │
-                        ▼
-                Structured Analysis
-                        │
-                        ▼
-                   Human Review
-```
+### A defined development programme
 
-The public diagram is intentionally conceptual.
+The project has a documented province-wide scope and a staged programme covering evidence quality, analytical methods, reporting, integration and external evaluation.
 
-The production architecture, orchestration logic, internal interfaces, model-routing mechanisms, validation implementation, and simulation methods are maintained in the private development repository.
+Different components are at different stages. Their presence in the project does not imply equal maturity or readiness.
 
----
+## What the current prototype does not establish
 
-## Policy Domains
+PolicyMesh AI is not yet a complete, independently validated multi-domain policy-analysis product.
 
-The platform is being developed to support analysis across interconnected areas of Newfoundland & Labrador public policy, including broad categories such as:
+In particular:
 
-- economic and fiscal policy,
-- energy and infrastructure,
-- labour and demographic analysis,
-- housing and community development,
-- marine and transportation systems,
-- regulatory considerations,
-- environmental and climate-related policy,
-- public-service and regional planning.
+- Some components provide observations or evidence-gap screening rather than simulations.
+- Several intended models require further development or repair.
+- Cross-domain policy effects are not comprehensively validated.
+- Some questions require operational or administrative evidence that is not publicly available.
+- Independent, use-specific review and acceptance remain outstanding.
+- Government efficiency gains, financial savings and decision improvements have not yet been demonstrated through an operational evaluation.
 
-The purpose of combining multiple domains is not simply to produce more outputs.
+Province-wide scope is a development commitment. It does not mean every question can currently be answered with equal detail in every community.
 
-It is to study how an AI-assisted analytical system handles **interdependencies between policy areas while preserving the provenance and limitations of the evidence behind each conclusion**.
+## Our original goal: the intended final product
 
----
+The long-term objective remains a commercially supportable, province-wide policy-analysis platform for Newfoundland and Labrador.
 
-## Evidence and Data Governance
+It is intended to help analysts move from a policy question to a reviewed, reproducible brief:
 
-A central design principle of PolicyMesh AI is that the system should not silently substitute unsupported values when authoritative evidence is unavailable.
+1. Define the question, alternatives and intended use.
+2. Assemble relevant, authorized evidence.
+3. Identify applicable legislative and regulatory considerations.
+4. Make assumptions and evidence gaps explicit.
+5. Execute suitable, validated quantitative analyses.
+6. Compare alternative scenarios and their supported consequences.
+7. Assess fiscal, economic, social or distributional effects where justified.
+8. Explain uncertainty, sensitivity and limitations.
+9. Produce a traceable analytical brief.
+10. Support human review and accountable decision-making.
 
-The project therefore incorporates controls intended to distinguish among different levels and types of evidentiary support.
+This describes the intended user experience, not the private implementation.
 
-At a high level, these controls address:
+Delivery depends on appropriate evidence, successful method validation and the permissions and partnerships required for each use.
 
-### Source provenance
+### What success would look like
 
-Analytical outputs should retain information about the evidence or model supporting them.
+An analyst should be able to understand:
 
-### Explicit assumptions
+- What the assessment concludes?
+- Which evidence supports it?
+- What period and geography it covers?
+- Which assumptions materially affect the result?
+- How alternatives compare?
+- Which conclusions remain unsupported?
+- How to reproduce the assessment?
 
-Where scenario analysis requires an assumption, it should be identified as an assumption rather than presented as an observed fact.
+Where forecasting is appropriate, predictive claims would require demonstrated performance. Conditional scenarios would remain clearly distinguished from forecasts.
 
-### Evidence-quality awareness
+## Intended policy coverage
 
-The system distinguishes between different levels of source reliability and analytical support.
+The development scope includes:
 
-### Validation before synthesis
+- Energy, infrastructure and regional development.
+- Economic activity, trade and labour.
+- Housing, population and community planning.
+- Agriculture, fisheries and marine activity.
+- Provincial finances and federal fiscal relationships.
+- Funding programmes and regulatory considerations.
+- Environmental and climate-related analysis.
+- Public-service planning and distributional considerations.
 
-Outputs from analytical components are checked before being incorporated into higher-level policy analysis.
+The purpose is not simply to accumulate more analytical components. It is to support useful policy questions that cross domain boundaries without losing the meaning or limitations of the underlying evidence.
 
-### Fail-safe behaviour
+## What comes next
 
-Where available evidence does not satisfy defined reliability requirements, the preferred behaviour is to withhold or qualify a conclusion rather than generate an unsupported number.
+The next stages focus on:
 
-### Reproducibility
+### Stronger analytical methods
 
-Analytical results are designed to retain sufficient contextual information to understand how a conclusion was produced.
+Repairing remaining defects and validating each method against appropriate benchmarks, observations or independently assessed cases.
 
----
+### Complete policy workflows
 
-## AI Assurance Research
+Connecting selected capabilities into useful question-to-report journeys, with consistent assumptions and clear boundaries between domains.
 
-PolicyMesh AI also functions as an experimental environment for studying assurance problems that emerge when AI agents interact with data, models, and analytical tools.
+### Qualified evidence coverage
 
-Current areas of investigation include:
+Improving public evidence coverage and identifying where authorized custodian participation is necessary.
 
-**Evidence provenance**  
-Can every consequential claim be connected back to its supporting evidence?
+### Independent evaluation
 
-**Reliability**  
-What happens when an analytical component produces a plausible but insufficiently supported result?
+Inviting qualified reviewers to assess specific methods, assumptions, results and permitted uses.
 
-**Model limitations**  
-How should known limitations affect downstream AI reasoning?
+### Practical pilot evaluation
 
-**Uncertainty**  
-How should uncertainty survive the transition from quantitative analysis to natural-language synthesis?
+Working toward a supervised evaluation using agreed tasks and measurable outcomes, such as analytical correctness, time required, reproducibility and rework.
 
-**Tool use**  
-How should an agent determine when a particular analytical capability is appropriate?
+### Operational readiness
 
-**Human oversight**  
-Which conclusions should require additional human interpretation or approval?
+Establishing the support, governance, accessibility, security, and deployment arrangements appropriate to any future receiving organization.
 
-**Accountability**  
-Can a reviewer reconstruct the evidentiary basis for a generated policy analysis?
+Progress will be judged by useful, checked analytical outcomes—not simply by the number of datasets, components or software tests.
 
-The purpose is not to claim that these problems have been solved.
+## Collaboration and validation
 
-PolicyMesh AI provides a practical environment in which they can be identified, measured, and studied.
+I welcome conversations with:
 
----
+- Government policy and analytical teams.
+- Municipal and public-sector organizations.
+- Academic researchers.
+- Energy, infrastructure, economic and other domain specialists.
+- Independent evaluation and assurance professionals.
 
-## Example Analytical Workflow
+The immediate interest is in **reviewing clearly defined methods and identifying useful evaluation questions**, not requesting endorsement of the entire platform.
 
-A typical research scenario may begin with a policy question such as:
+Initial discussions can use public evidence and non-sensitive examples. Confidential records are not needed to begin.
 
-> *What economic, infrastructure, demographic, environmental, and regulatory considerations should be evaluated before pursuing a major regional development initiative?*
+Any future restricted-data work would require appropriate authority, agreements and safeguards.
 
-Rather than asking a language model to answer directly, PolicyMesh AI is designed to assemble relevant evidence and quantitative analysis before producing a structured synthesis.
+Participation in a discussion or evaluation would not be represented as organizational endorsement or government approval.
 
-Conceptually:
+## Public information and private implementation
 
-```text
-Policy Question
-      │
-      ├──► Identify relevant policy dimensions
-      │
-      ├──► Retrieve supporting public evidence
-      │
-      ├──► Run applicable quantitative analysis
-      │
-      ├──► Validate evidence and analytical outputs
-      │
-      ├──► Identify assumptions and limitations
-      │
-      └──► Produce an evidence-grounded briefing
-                     │
-                     ▼
-                 Human Review
-```
+This repository provides a public account of the project’s purpose, demonstrated progress, limitations and intended direction.
 
-The specific orchestration and implementation of this workflow are intentionally not included in the public repository.
+The underlying implementation remains private, including internal analytical methods, orchestration, configuration and detailed operational arrangements.
 
----
+Public examples will be limited to appropriately shareable material. Restricted records, confidential project information and private agreements are not intended for publication here.
 
-## What This Repository Contains
+Selected demonstrations or additional evaluation materials may be shared at the author’s discretion for legitimate research, collaboration or assessment purposes.
 
-This repository is intended to provide enough information to understand and evaluate the **research motivation, scope, design principles, and current direction** of PolicyMesh AI.
+## Human responsibility remains central
 
-Public materials may include:
+PolicyMesh AI is intended to assist—not replace—public servants, policy analysts and qualified domain professionals.
 
-```text
-policymesh-ai-overview/
-│
-├── README.md
-│
-├── docs/
-│   ├── project-overview.md
-│   ├── research-objectives.md
-│   └── limitations.md
-│
-├── figures/
-│   └── high-level-architecture.png
-│
-└── examples/
-    └── sanitized-example.md
-```
+It does not independently confer:
 
-Any examples included here will use publicly shareable or sanitized information and will not expose proprietary implementation details.
+- Legal or regulatory clearance.
+- Engineering approval.
+- Clinical authority.
+- Funding entitlement.
+- Government endorsement.
 
----
+A source-backed calculation can inform a decision without determining that decision. Human responsibility and use-specific professional judgment remain essential.
 
-## What Is Not Included
-
-This repository does **not** contain the underlying PolicyMesh AI implementation.
-
-In particular, it does not disclose:
-
-- source code,
-- internal agent orchestration,
-- prompts or reasoning workflows,
-- model-routing logic,
-- simulation implementations,
-- internal data schemas,
-- private configuration,
-- detailed validation mechanisms,
-- analytical calibration procedures,
-- deployment architecture,
-- internal evaluation tooling.
-
-These components remain part of the private development repository.
-
----
-
-## Current Status
-
-PolicyMesh AI is an **active research and engineering project**, not a production government decision system.
-
-Development currently focuses on improving:
-
-- evidentiary grounding,
-- provenance and traceability,
-- quantitative validation,
-- model and data-quality controls,
-- treatment of assumptions and uncertainty,
-- failure handling,
-- reproducibility,
-- human-review boundaries.
-
-The platform continues to evolve as individual analytical components are tested against authoritative data and their limitations are identified.
-
-A component being present in the system should therefore not be interpreted as evidence that it is suitable for operational or consequential government use.
-
----
-
-## Scope and Limitations
-
-PolicyMesh AI is a research project.
-
-It is **not**:
-
-- a replacement for public servants, policy analysts, economists, engineers, legal professionals, or domain experts;
-- an autonomous policymaking system;
-- an authoritative source of government policy;
-- a regulatory determination system;
-- a production decision engine;
-- evidence that generative AI outputs should be trusted without independent review.
-
-The project intentionally treats the distinction between **analytical assistance and decision authority** as an important part of responsible AI system design.
-
----
-
-## Research Direction
-
-The broader research direction behind PolicyMesh AI is:
-
-> **How should governments evaluate and govern agentic AI systems that autonomously combine evidence, data, and quantitative models to support consequential public-sector decisions?**
-
-PolicyMesh AI provides a technical testbed for investigating this question through practical system development rather than examining AI governance only at a conceptual level.
-
-Potential policy implications include assurance requirements around:
-
-- traceability,
-- evidence provenance,
-- model validation,
-- uncertainty disclosure,
-- human oversight,
-- auditability,
-- risk-based deployment,
-- procurement of agentic AI systems.
-
----
-
-## Private Implementation & Evaluation Access
-
-The complete PolicyMesh AI implementation is maintained in a **private repository**.
-
-This public repository intentionally provides a limited technical overview so that the project can be discussed and evaluated without publicly releasing implementation details that are still under active development.
-
-For legitimate **research, fellowship, recruitment, collaboration, or technical-evaluation purposes**, additional project materials may be made available upon request.
-
-Where appropriate, this may include:
-
-- a private technical walkthrough,
-- demonstration of the working system,
-- selected implementation materials,
-- additional evaluation results, or
-- controlled access to the private repository.
-
-**Access is provided selectively and at the project author's discretion.**
-
-For assessment inquiries, please contact:
-
-**Muhammad Haseeb Khan**  
-GitHub: [@haseebkn](https://github.com/haseebkn)
-
----
-
-## Project Ownership
-
-PolicyMesh AI is an independently designed and developed research project by **Muhammad Haseeb Khan**.
-
-The materials in this repository document the public-facing research direction of the project. The underlying implementation, technical architecture, and associated private development materials remain separately maintained.
-
----
-
-## Responsible Disclosure
-
-This overview intentionally describes **what PolicyMesh AI is designed to investigate and achieve** without documenting the complete mechanisms through which those capabilities are implemented.
-
-That distinction is deliberate.
-
-The project's public documentation is intended to support technical and policy discussion while preserving unpublished implementation details during active development.
-
----
-
-## Contact
-
-For research collaboration, fellowship assessment, technical evaluation, or requests to review additional project materials:
+## Project owner and contact
 
 **Muhammad Haseeb Khan**
 
-- GitHub: [github.com/haseebkn](https://github.com/haseebkn)
-- LinkedIn: [linkedin.com/in/haseebkn](https://www.linkedin.com/in/haseebkn/)
+- Website: [haseebk.net](https://haseebk.net)
+- GitHub: [@haseebkn](https://github.com/haseebkn)
+- [LinkedIn: Haseeb Khan](https://www.linkedin.com/in/haseebkn/)
+
+For collaboration, method review or a discussion of potential evaluation tasks, please get in touch.
 
 ---
 
-*PolicyMesh AI is an independent research project and is not affiliated with or endorsed by the Government of Newfoundland & Labrador, the Government of Canada, or any public agency whose openly available information may be used for research and analysis.*
+*PolicyMesh AI is an independent project. It is not affiliated with or endorsed by the Government of Newfoundland and Labrador, the Government of Canada, or any organization whose public information is used in its development.*
+
+*Public status summary: September 2026. Capabilities and limitations will be updated as development and validation progress.*
